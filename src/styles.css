@@ -5,9 +5,14 @@
 
 body{
     margin-top: 5rem;
+    background-color: #2C3639;
 }
 
 @theme{
     /* --color-main: #FEA24D; */
-    --color-main: #55B2C9;
+    /* --color-main: #55B2C9; */
+    --color-main: #A27B5C;
+    --color-secondary: #2C3639;
+    --color-third: #3F4E4F;
+    --color-fourth: #DCD7C9;
 }

@@ -1,14 +1,14 @@
 <section class="p-4 sm:ml-64">
     @for(project of projects ; track $index){
     <div class="p-3">
-        <div class="bg-gray-700 flex flex-wrap flex-col-reverse items-center lg:flex-row rounded-3xl p-5 text-white">
+        <div class="bg-third flex flex-wrap flex-col-reverse items-center lg:flex-row rounded-3xl p-5 text-white">
             <div class="lg:w-1/2 lg:p-3 min-h-[22rem] flex flex-col justify-between">
                 <h2 class="text-5xl mt-5 lg:mt-0">{{project.title}}</h2>
                 <p class="my-5 lg:pe-10">{{project.description}}</p>
                 <div class="flex flex-wrap justify-between items-center">
                     <ul class="flex flex-wrap gap-3">
                     @for(tech of project.techs ; track $index){
-                        <li class="bg-gray-600 p-2 rounded-xl min-w-16 text-center">{{tech}}</li>
+                        <li class="bg-fourth text-black p-2 rounded-xl min-w-16 text-center">{{tech}}</li>
                     }
                     </ul>
                     @if(project.realProject){

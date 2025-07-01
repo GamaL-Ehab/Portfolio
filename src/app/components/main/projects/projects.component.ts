@@ -40,7 +40,7 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/tailwind-first/', 
       date:'25/1/2025',
       techs: ['HTML', 'CSS', 'JS', 'Tailwind'],
-      realProject: false
+      realProject: true
     },
 
     {
@@ -62,7 +62,7 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/Assignment10-Login-System/', 
       date:'26/11/2024',
       techs: ['HTML', 'CSS', 'JS', 'Bootstrap'],
-      realProject: false
+      realProject: true
     },
 
     {
@@ -73,7 +73,7 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/Assignment9-Bookmarker/', 
       date:'22/11/2024',
       techs: ['HTML', 'CSS', 'JS', 'Bootstrap'],
-      realProject: false
+      realProject: true
     },
 
     {
@@ -84,7 +84,7 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/Assignment8-Quote/', 
       date:'6/11/2024',
       techs: ['HTML', 'CSS', 'JS'],
-      realProject: false
+      realProject: true
     },
 
     {
@@ -95,7 +95,7 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/Daniels/', 
       date:'2/11/2024',
       techs: ['HTML', 'CSS', 'Bootstrap'],
-      realProject: false
+      realProject: true
     },
 
     {
@@ -106,6 +106,28 @@ export class ProjectsComponent {
       liveDemo:'https://gamal-ehab.github.io/Devfolio/', 
       date:'20/10/2024',
       techs: ['HTML', 'CSS', 'Bootstrap'],
+      realProject: true
+    },
+
+    {
+      title:'Mealify', 
+      thumbnail:'/images/Mealify.png', 
+      description:'This portfolio website template is a clean, modern, and responsive design built to help individuals showcase their skills, projects, and professional background. Ideal for developers, designers, freelancers, and creatives, the template provides a visually appealing and well-structured layout to make a strong first impression.', 
+      repo:'https://github.com/GamaL-Ehab/Mealify', 
+      liveDemo:'https://gamal-ehab.github.io/Mealify/', 
+      date:'7/10/2024',
+      techs: ['HTML', 'CSS'],
+      realProject: true
+    },
+
+    {
+      title:'Fokir', 
+      thumbnail:'/images/Fokir.png', 
+      description:'This portfolio website template is a clean, modern, and responsive design built to help individuals showcase their skills, projects, and professional background. Ideal for developers, designers, freelancers, and creatives, the template provides a visually appealing and well-structured layout to make a strong first impression.', 
+      repo:'https://github.com/GamaL-Ehab/Fokir', 
+      liveDemo:'https://gamal-ehab.github.io/Fokir/', 
+      date:'25/9/2024',
+      techs: ['HTML', 'CSS'],
       realProject: false
     },
   ]

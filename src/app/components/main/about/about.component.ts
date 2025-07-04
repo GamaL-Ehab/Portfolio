@@ -36,6 +36,6 @@ export class AboutComponent {
     {
       Src: './images/Tailwind CSS.png',
       Name: 'Tailwind CSS'
-    },
+    }
   ]
 }

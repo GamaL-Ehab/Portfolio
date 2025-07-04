@@ -5,6 +5,6 @@ export interface Projects {
     repo: string,
     liveDemo: string,
     date: string,
-    techs: string[],
+    techs: any[],
     realProject: boolean
 }

@@ -8,7 +8,10 @@
                 <div class="flex flex-wrap justify-between items-center">
                     <ul class="flex flex-wrap gap-3">
                     @for(tech of project.techs ; track $index){
-                        <li class="bg-fourth text-black p-2 rounded-xl min-w-16 text-center">{{tech}}</li>
+                        <li class="bg-fourth hover:bg-fourth/90 flex flex-wrap items-center gap-1 p-2 rounded-xl min-w-16 cursor-pointer">
+                            <img [src]="tech.Src" [alt]="tech.Name" class="size-6">
+                            <span class="font-semibold text-gray-700">{{tech.Name}}</span>
+                        </li>
                     }
                     </ul>
                     @if(project.realProject){
@@ -19,9 +22,10 @@
                     }
                 </div>
                 <div class="flex flex-wrap justify-end gap-3 mt-5">
-                    <a [href]="project.repo" target="_blank"><button class="bg-transparent hover:bg-main border-2 border-main/80 py-2 px-8 rounded-xl cursor-pointer"><i class="fa-brands fa-github"></i> Code</button></a>
-                    <a [href]="project.liveDemo" target="_blank"><button class="bg-main/80 hover:bg-main border-2 border-main/80 py-2 px-8 rounded-xl cursor-pointer">View <i class="fa-solid fa-angles-right"></i></button></a>
+                        <a [href]="project.repo" target="_blank"><button class="bg-transparent hover:bg-main border-2 border-main py-2 px-8 rounded-xl cursor-pointer"><i class="fa-brands fa-github"></i> Code</button></a>
+                        <a [href]="project.liveDemo" target="_blank"><button class="bg-main/80 hover:bg-main border-2 border-main py-2 px-8 rounded-xl cursor-pointer">View <i class="fa-solid fa-angles-right"></i></button></a>
                 </div>
+                <span class="border-t mt-5 pt-2 font-semibold">Date: {{project.date}}</span>
             </div>
             <div class="lg:w-1/2 lg:p-3">
                 <img [src]="project.thumbnail" [alt]="project.title" class="rounded-2xl">

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Rowdies:wght@300;400;700&display=swap');
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
 @plugin "flowbite/plugin";
@@ -20,4 +21,28 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     --color-secondary: #101828;
     --color-third: #1F2937;
     --color-fourth: #cfcfcf;
+}
+
+.rowdies-regular {
+  font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.amaranth-regular {
+  font-family: "Amaranth", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3{
+    font-family: "Rowdies", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,span,ul{
+  font-family: "Amaranth", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }

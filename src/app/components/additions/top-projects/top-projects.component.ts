@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { Projects } from '../../../shared/interfaces/projects';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-top-projects',
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './top-projects.component.html',
   styleUrl: './top-projects.component.css'
 })

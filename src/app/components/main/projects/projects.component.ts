@@ -91,7 +91,7 @@ export class ProjectsComponent {
           Name: 'CSS'
         },
         {
-          Src: './images/Jypescript.png',
+          Src: './images/Javascript.png',
           Name: 'Javascript'
         },
         {

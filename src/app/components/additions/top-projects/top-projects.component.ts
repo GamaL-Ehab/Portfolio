@@ -17,7 +17,60 @@ export class TopProjectsComponent {
       repo:'https://github.com/GamaL-Ehab/Ecommerce', 
       liveDemo:'https://ecommerce-kohl-rho-42.vercel.app/home', 
       date:'29/1/2025',
-      techs: ['HTML', 'CSS', 'Tailwind', 'TS', 'Angular'],
+      techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/CSS.png',
+          Name: 'CSS'
+        },
+        {
+          Src: './images/typescript.png',
+          Name: 'Typescript'
+        },
+        {
+          Src: './images/Angular.png',
+          Name: 'Angular'
+        },
+        {
+          Src: './images/Tailwind CSS.png',
+          Name: 'Tailwind CSS'
+        }
+      ],
+      realProject: false
+    },
+
+    {
+      title: 'Recipes',
+      thumbnail: '/images/Recipes.png',
+      description: 'Dynamic and responsive web application is built using HTML, CSS, and the Angular framework. It serves as a modern recipe discovery platform that fetches real-time food recipe data from an external API. Users can browse, and view a wide variety of recipes, complete with images, ingredients, and cooking instructions.',
+      repo: 'https://github.com/GamaL-Ehab/Recipes',
+      liveDemo: 'https://recipes-woad.vercel.app/',
+      date: '16/2/2025',
+      techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/CSS.png',
+          Name: 'CSS'
+        },
+        {
+          Src: './images/typescript.png',
+          Name: 'Typescript'
+        },
+        {
+          Src: './images/Angular.png',
+          Name: 'Angular'
+        },
+        {
+          Src: './images/Tailwind CSS.png',
+          Name: 'Tailwind CSS'
+        }
+      ],
       realProject: false
     },
 
@@ -28,7 +81,24 @@ export class TopProjectsComponent {
       repo:'https://github.com/GamaL-Ehab/Assignment11-Weather', 
       liveDemo:'https://gamal-ehab.github.io/Assignment11-Weather/', 
       date:'4/12/2024',
-      techs: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+      techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/CSS.png',
+          Name: 'CSS'
+        },
+        {
+          Src: './images/Javascript.png',
+          Name: 'Javascript'
+        },
+        {
+          Src: './images/Bootstrap.png',
+          Name: 'Bootstrap'
+        }
+      ],
       realProject: false
     },
 
@@ -39,7 +109,24 @@ export class TopProjectsComponent {
       repo:'https://github.com/GamaL-Ehab/Assignment9-Bookmarker', 
       liveDemo:'https://gamal-ehab.github.io/Assignment9-Bookmarker/', 
       date:'22/11/2024',
-      techs: ['HTML', 'CSS', 'JS', 'Bootstrap'],
+      techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/CSS.png',
+          Name: 'CSS'
+        },
+        {
+          Src: './images/Javascript.png',
+          Name: 'Javascript'
+        },
+        {
+          Src: './images/Bootstrap.png',
+          Name: 'Bootstrap'
+        }
+      ],
       realProject: false
     },
 
@@ -50,7 +137,20 @@ export class TopProjectsComponent {
       repo:'https://github.com/GamaL-Ehab/Devfolio', 
       liveDemo:'https://gamal-ehab.github.io/Devfolio/', 
       date:'20/10/2024',
-      techs: ['HTML', 'CSS', 'Bootstrap'],
+            techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/CSS.png',
+          Name: 'CSS'
+        },
+        {
+          Src: './images/Javascript.png',
+          Name: 'Javascript'
+        }
+      ],
       realProject: false
     },
   ]

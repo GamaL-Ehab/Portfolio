@@ -3,23 +3,12 @@
         <h2 class="text-4xl lg:text-5xl font-semibold underline"> About Me: </h2>
         <ul class="text-xl font-semibold mt-5 space-y-3">
             <li>Name: Gamal Ehab.</li>
-            <li>Address: Nasr City, Cairo, Egypt.</li>
+            <li>Email: gamalehabg&#64;gmail.com</li>
             <li>Phone: +201118416050</li>
+            <li>Address: Nasr City, Cairo, Egypt.</li>
             <li>Education: Bachelor's Degree At Business Information Systems (BIS).</li>
-            <li>Military Service Status: Exmpeted.</li>
+            <li>Military Service Status: Exempted.</li>
         </ul>
     </div>
-    <div class="py-5 my-5">
-        <h2 class="text-4xl lg:text-5xl font-semibold underline">Technical Skills:</h2>
-        <ul class="flex flex-wrap mt-5 text-center font-semibold">
-            @for(skill of Skills ; track $index){
-            <div class="p-3 w-1/2 lg:w-1/3 xl:w-1/6">
-                <li class="bg-third/50 rounded-xl hover:bg-main/10 flex flex-col items-center p-5">
-                    <img [src]="skill.Src" [alt]="skill.Name" class="w-38">
-                    <h3 class="mt-2 text-2xl">{{skill.Name}}</h3>
-                </li>
-            </div>
-            }
-        </ul>
-    </div>
+    <app-skills></app-skills>
 </section>

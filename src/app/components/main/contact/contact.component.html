@@ -1,5 +1,5 @@
 <section class="p-4 sm:ml-64 flex justify-center items-center">
-    <form action="" class="bg-third/50 w-full lg:w-1/2 min-h-[35rem] mt-20 rounded-2xl p-10 flex flex-wrap flex-col items-center justify-center gap-6">
+    <!-- <form action="" class="bg-third/50 w-full lg:w-1/2 min-h-[35rem] mt-20 rounded-2xl p-10 flex flex-wrap flex-col items-center justify-center gap-6">
         <h2 class="text-white text-center text-5xl font-semibold">Contact Me</h2>
         <div class="w-full lg:w-3/4">
             <input type="text" class="w-full rounded-2xl focus:border-white" placeholder="Your Name...">
@@ -11,5 +11,19 @@
             <textarea name="" id="" class="w-full rounded-2xl focus:border-white max-h-60" placeholder="Message..."></textarea>
         </div>
         <button type="button" class="bg-transparent hover:bg-main border-2 border-main py-2.5 w-1/2 rounded-xl cursor-pointer text-white font-semibold">Send</button>
-    </form>
+    </form> -->
+
+    <div>
+        <h2 class="text-white text-center text-5xl font-semibold">Contact Me Via:</h2>
+        <ul class="my-10 text-white">
+            @for(platform of platforms ; track $index){
+            <a [href]="platform.Link">
+                <li class="flex flex-wrap justify-center items-center mt-3 gap-2 bg-third/50 hover:bg-main/10 p-5 rounded-4xl cursor-pointer text-xl">
+                    <i [class]="platform.Icon"></i>
+                    <h3>{{platform.Name}}</h3>
+                </li>
+            </a>
+            }
+        </ul>
+    </div>
 </section>

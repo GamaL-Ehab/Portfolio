@@ -14,16 +14,10 @@
                         </li>
                     }
                     </ul>
-                    @if(project.realProject){
-                        <span class="bg-blue-800 py-1 px-2 rounded-full my-5"><i class="fa fa-check-circle"></i> Full Project</span>
-
-                    }@else{
-                        <span class="bg-yellow-400/70 py-1 px-2 rounded-full text-sm my-5"><i class="fa fa-warning animate-pulse"></i> Incomplete</span>
-                    }
                 </div>
-                <div class="flex flex-wrap justify-end gap-3 mt-5">
+                <div class="flex flex-wrap justify-end gap-3 mt-8">
                         <a [href]="project.repo" target="_blank"><button class="bg-transparent hover:bg-main border-2 border-main py-2 px-8 rounded-xl cursor-pointer"><i class="fa-brands fa-github"></i> Code</button></a>
-                        <a [href]="project.liveDemo" target="_blank"><button class="bg-main/80 hover:bg-main border-2 border-main py-2 px-8 rounded-xl cursor-pointer">View <i class="fa-solid fa-angles-right"></i></button></a>
+                        <a [href]="project.liveDemo" target="_blank"><button class="bg-main/80 hover:bg-main border-2 border-main/80 py-2 px-8 rounded-xl cursor-pointer">View <i class="fa-solid fa-angles-right"></i></button></a>
                 </div>
                 <span class="border-t mt-5 pt-2 font-semibold">Date: {{project.date}}</span>
             </div>

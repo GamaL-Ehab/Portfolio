@@ -49,7 +49,7 @@ export class SkillsComponent {
       Name: 'C#'
     },
     {
-      Src: './images/C++ (CPlusPlus).png',
+      Src: './images/CPlusPlus.png',
       Name: 'C++'
     },
     {

@@ -18,10 +18,6 @@ export class SkillsComponent {
       Name: 'CSS'
     },
     {
-      Src: './images/sass.png',
-      Name: 'SCSS'
-    },
-    {
       Src: './images/Javascript.png',
       Name: 'Javascript'
     },
@@ -40,6 +36,10 @@ export class SkillsComponent {
     {
       Src: './images/Tailwind CSS.png',
       Name: 'Tailwind CSS'
+    },
+    {
+      Src: './images/sass.png',
+      Name: 'SCSS'
     }
   ]
 

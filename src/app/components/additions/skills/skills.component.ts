@@ -18,6 +18,10 @@ export class SkillsComponent {
       Name: 'CSS'
     },
     {
+      Src: './images/sass.png',
+      Name: 'SCSS'
+    },
+    {
       Src: './images/Javascript.png',
       Name: 'Javascript'
     },

@@ -21,7 +21,7 @@ export class ContactComponent {
     {
       Name:'Gmail',
       Icon:'fa-brands fa-google',
-      Link:'https://mail.google.com/mail/?view=cm&fs=1&to=gamalehabg@gmail.com'
+      Link:'https://mail.google.com/mail/?view=cm&fs=1&to=gamalehabg@gmail.com&su=NewMail'
     },
   ]
 }

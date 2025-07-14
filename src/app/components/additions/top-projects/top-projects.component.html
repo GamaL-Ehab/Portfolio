@@ -3,7 +3,7 @@
     @for(project of TopProjects ; track $index){
     <div class="p-3 lg:w-1/2">
         <div
-            class="bg-third/50 hover:bg-main/5 flex flex-wrap flex-col-reverse justify-between items-center rounded-3xl p-5 text-white outline outline-white/10">
+            class="fadeIn bg-third/50 hover:bg-main/5 flex flex-wrap flex-col-reverse justify-between items-center rounded-3xl p-5 text-white outline outline-white/10">
             <div class="flex flex-col justify-between h-3/4">
                 <h2 class="text-4xl font-semibold  p-2 w-fit rounded-tr-2xl">{{project.title}}</h2>
                 <p class="my-5">{{project.description}}</p>
@@ -32,7 +32,7 @@
     }
 
     <div class="p-5 w-full lg:w-1/2">
-        <div routerLink="/projects" class="h-full xl:h-3/4 bg-third/50 hover:bg-main/10 flex justify-center items-center rounded-3xl px-5 py-10 text-white outline outline-white/10 cursor-pointer">
+        <div routerLink="/projects" class="h-full xl:h-3/4 fadeIn bg-third/50 hover:bg-main/10 flex justify-center items-center rounded-3xl px-5 py-10 text-white outline outline-white/10 cursor-pointer">
             <h2 class="lg:max-w-60 text-center text-3xl lg:text-4xl">View All Projects <i class="mt-3 fa-solid fa-arrow-up-right-from-square"></i></h2>
         </div>
     </div>

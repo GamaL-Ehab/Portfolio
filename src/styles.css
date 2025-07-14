@@ -42,3 +42,14 @@ p,span,ul{
   font-weight: 500;
   font-style: normal;
 }
+
+.fadeIn{
+  scale: 0.95; opacity: 0.95;
+  animation: fadeIn linear forwards;
+  animation-timeline: view();
+  animation-range: 250px 500px;
+}
+
+@keyframes fadeIn{
+  to{scale: 1; opacity: 1;}
+}

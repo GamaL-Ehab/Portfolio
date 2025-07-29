@@ -40,6 +40,10 @@ export class SkillsComponent {
     {
       Src: './images/sass.png',
       Name: 'SCSS'
+    },
+    {
+      Src: './images/primeng.png',
+      Name: 'PrimeNG'
     }
   ]
 

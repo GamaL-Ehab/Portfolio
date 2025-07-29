@@ -4,7 +4,7 @@
         <div class="fadeIn bg-third/50 hover:bg-main/10 flex flex-wrap flex-col-reverse items-center lg:flex-row rounded-3xl p-5 text-white outline outline-white/10">
             <div class="lg:w-1/2 lg:p-3 min-h-[22rem] flex flex-col justify-between">
                 <h2 class="text-4xl lg:text-5xl mt-5 lg:mt-0">{{project.title}}</h2>
-                <p class="my-5 lg:pe-10">{{project.description}}</p>
+                <p class="my-5 lg:pe-10 text-xl">{{project.description}}</p>
                 <div class="flex flex-wrap justify-between items-center">
                     <ul class="flex flex-wrap gap-3">
                     @for(tech of project.techs ; track $index){
@@ -19,7 +19,7 @@
                         <a [href]="project.repo" target="_blank"><button class="bg-transparent hover:bg-main border-2 border-main py-2 px-8 rounded-xl cursor-pointer"><i class="fa-brands fa-github"></i> Code</button></a>
                         <a [href]="project.liveDemo" target="_blank"><button class="bg-main/80 hover:bg-main border-2 border-main/80 py-2 px-8 rounded-xl cursor-pointer">View <i class="fa-solid fa-angles-right"></i></button></a>
                 </div>
-                <span class="border-t mt-5 pt-2 font-semibold">Date: {{project.date}}</span>
+                <span class="border-t mt-5 pt-2 font-semibold">Date Created: {{project.date}}</span>
             </div>
             <div class="lg:w-1/2 lg:p-3">
                 <img [src]="project.thumbnail" [alt]="project.title" class="rounded-2xl">

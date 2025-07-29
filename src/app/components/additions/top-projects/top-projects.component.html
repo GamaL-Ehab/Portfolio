@@ -6,7 +6,7 @@
             class="fadeIn bg-third/50 hover:bg-main/5 flex flex-wrap flex-col-reverse justify-between items-center rounded-3xl p-5 text-white outline outline-white/10">
             <div class="flex flex-col justify-between h-3/4">
                 <h2 class="text-4xl font-semibold  p-2 w-fit rounded-tr-2xl">{{project.title}}</h2>
-                <p class="my-5">{{project.description}}</p>
+                <p class="my-5 text-xl">{{project.description}}</p>
                 <ul class="flex flex-wrap gap-3">
                     @for(tech of project.techs ; track $index){
                         <li class="bg-fourth hover:bg-fourth/90 flex flex-wrap items-center gap-1 p-2 rounded-xl min-w-16 cursor-pointer">
@@ -31,7 +31,7 @@
     </div>
     }
 
-    <div class="p-5 w-full lg:w-1/2">
+    <div class="p-5 w-full lg:w-1/2 min-h-96">
         <div routerLink="/projects" class="h-full xl:h-3/4 fadeIn bg-third/50 hover:bg-main/10 flex justify-center items-center rounded-3xl px-5 py-10 text-white outline outline-white/10 cursor-pointer">
             <h2 class="lg:max-w-60 text-center text-3xl lg:text-4xl">View All Projects <i class="mt-3 fa-solid fa-arrow-up-right-from-square"></i></h2>
         </div>

@@ -11,6 +11,42 @@ export class ProjectsComponent {
 
   projects: Projects[] = [
     {
+      title: 'Todo App',
+      thumbnail: '/images/TodoApp.png',
+      description: 'A responsive task management application that helps users stay organized and productive. Built using Angular for structure, styled with Tailwind CSS for a clean and modern UI, and enhanced with PrimeNG components for a rich user experience.',
+      repo: 'https://github.com/GamaL-Ehab/TodoApp',
+      liveDemo: 'https://todo-app-three-lemon-77.vercel.app/',
+      date: '28/7/2025',
+      techs: [
+        {
+          Src: './images/html.png',
+          Name: 'HTML'
+        },
+        {
+          Src: './images/sass.png',
+          Name: 'SCSS'
+        },
+        {
+          Src: './images/typescript.png',
+          Name: 'Typescript'
+        },
+        {
+          Src: './images/Angular.png',
+          Name: 'Angular'
+        },
+        {
+          Src: './images/Tailwind CSS.png',
+          Name: 'Tailwind CSS'
+        },
+        {
+          Src: './images/primeng.png',
+          Name: 'PrimeNG'
+        }
+      ],
+      realProject: false
+    },
+
+    {
       title: 'Recipes',
       thumbnail: '/images/Recipes.png',
       description: 'Dynamic and responsive web application is built using HTML, CSS, and the Angular framework. It serves as a modern recipe discovery platform that fetches real-time food recipe data from an external API. Users can browse, and view a wide variety of recipes, complete with images, ingredients, and cooking instructions.',
@@ -55,8 +91,8 @@ export class ProjectsComponent {
           Name: 'HTML'
         },
         {
-          Src: './images/CSS.png',
-          Name: 'CSS'
+          Src: './images/sass.png',
+          Name: 'SCSS'
         },
         {
           Src: './images/typescript.png',

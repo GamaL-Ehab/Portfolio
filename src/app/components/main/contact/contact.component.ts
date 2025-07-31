@@ -11,7 +11,7 @@ export class ContactComponent {
     {
       Name:'LinkedIn',
       Icon:'fa-brands fa-linkedin',
-      Link:'https://www.linkedin.com/in/gamal-ehab-2baa5332b'
+      Link:'https://www.linkedin.com/in/gamal-ehab'
     },
     {
       Name:'Whatsapp',
